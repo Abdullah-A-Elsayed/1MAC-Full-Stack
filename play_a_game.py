@@ -22,7 +22,8 @@ def play_game(ml_string, parts_of_speech):
     for word in ml_list:
         returnee = word_in_pos(word, parts_of_speech)
     	if returnee != None:
-    		word = word.replace(returnee,"corgi")
+    		user_input = raw_input("write a "+returnee+": ")
+    		word = word.replace(returnee,user_input)
     	replaced.append(word)
     return " ".join(replaced)
     
