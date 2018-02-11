@@ -37,4 +37,4 @@ def daysBetweenDates(y1, m1, d1, y2, m2, d2):
 # print isLeapYear(2016)
 # print isLeapYear(2100)
 # print isLeapYear(2400)
-print daysBetweenDates(2012,2,28,2012,2,29)
+print daysBetweenDates(2012, 6, 29, 2013, 6, 31)
