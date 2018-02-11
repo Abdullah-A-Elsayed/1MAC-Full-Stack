@@ -8,14 +8,20 @@
 # If there is no matching element,
 # return -1.
 
-
-def find_element(stack,key):
+''' way 1 '''
+def find_element_1(stack,key):
 	pos = -1
 	for index in range(0,len(stack)):
 		if stack[index] == key:
 			pos = index
 			break
 	return pos
+
+''' way 2 '''
+def find_element(stack,key):
+	if key not in stack: return -1
+	return stack.index(key)
+
 print find_element([1,2,3],3)
 #>>> 2
 
