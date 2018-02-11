@@ -23,3 +23,7 @@ print word_in_pos(test_cases[0], parts_of_speech)
 print word_in_pos(test_cases[1], parts_of_speech)
 print word_in_pos(test_cases[2], parts_of_speech)
 print word_in_pos(test_cases[3], parts_of_speech)
+
+"""
+	learned: operator (((in))) can be used for (((strings))) instead of deleting and checking
+"""
